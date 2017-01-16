@@ -47,7 +47,7 @@ public class LineChartGrapher extends Application {
 
 
 
-        stage.setTitle("When Jason Was With Saxes");
+        stage.setTitle("When Jason Drank");
 
         //defining the axes
         final NumberAxis xAxis = new NumberAxis();
@@ -60,7 +60,7 @@ public class LineChartGrapher extends Application {
         final LineChart<Number,Number> lineChart = 
                 new LineChart<Number,Number>(xAxis,yAxis);
                 
-        lineChart.setTitle("Jason's Hang Outs, 2016");
+        lineChart.setTitle("Jason's Drinking, 2016");
         //defining a series
         XYChart.Series series = new XYChart.Series();
         series.setName("Quotes");

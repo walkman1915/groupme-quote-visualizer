@@ -1,3 +1,5 @@
+![Example graph](groupme-quote-visualizer/groupme_visualizer.png)
+
 ### Requirements
 To use this, you'll need a text file of GroupMe messages in a specific format.  
 format: &nbsp;&nbsp;&nbsp;&nbsp;DayOfWeek, Day Month Year: Message  

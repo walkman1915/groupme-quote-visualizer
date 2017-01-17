@@ -7,6 +7,16 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * @author Walker Powell
+ * @version 1.0
+ *
+ * This program takes a text file of GroupMe messages, formatted as below, and
+ * and makes a CSV file of all the individual words from the messages.
+ * message format: DayOfWeek, Day Month Year: Message
+ * example:         Saturday, 05 March 2016: "I feel like I'm going to regret everything I said" - Jason
+ */ 
+
 public class Quotes {
     public static void main(String[] args) {
         Scanner scanner;

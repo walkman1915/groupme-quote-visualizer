@@ -5,12 +5,21 @@ import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.CategoryAxis;
 import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
-
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Map;
 import java.util.HashMap;
+
+/**
+ * @author Walker Powell
+ * @version 1.0
+ *
+ * This program takes a text file of GroupMe messages, formatted as below, and
+ * and makes a graph of when the messages were posted.
+ * message format: DayOfWeek, Day Month Year: Message
+ * example:         Saturday, 05 March 2016: "I feel like I'm going to regret everything I said" - Jason
+ */ 
 
 public class LineChartGrapher extends Application {
     @Override public void start(Stage stage) {

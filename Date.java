@@ -1,3 +1,10 @@
+/** 
+ * @Author Walker Powell
+ * @version 1.1
+ *
+ * A class for storing Date objects with a specific day, month, and year.
+ */
+
 public class Date {
     public int day;
     public int month;

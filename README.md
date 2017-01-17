@@ -1,4 +1,4 @@
-![Example graph](groupme-quote-visualizer/groupme_visualizer.png)
+![Example graph](groupme_visualizer.png)
 
 ### Requirements
 To use this, you'll need a text file of GroupMe messages in a specific format.  
